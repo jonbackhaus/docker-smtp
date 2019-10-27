@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM arm32v7/debian:9
 
 MAINTAINER Oluwaseun Obajobi "oluwaseun.obajobi@namshi.com"
 
