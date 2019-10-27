@@ -3,10 +3,9 @@ services:
   smtp:
     image: jonbackhaus/smtp
     container_name: smtp_relay
-    network_mode: host
     restart: always
     ports:
-      - "25:25"
+      - "2525:25"
     env_file:
       - "gmail.env"
     environment:
